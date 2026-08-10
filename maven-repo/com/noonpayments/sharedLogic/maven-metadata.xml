@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.noonpayments</groupId>
+  <artifactId>sharedLogic</artifactId>
+  <versioning>
+    <latest>1.0.0-local</latest>
+    <release>1.0.0-local</release>
+    <versions>
+      <version>1.0.0-local</version>
+    </versions>
+    <lastUpdated>20260810065155</lastUpdated>
+  </versioning>
+</metadata>
