@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sharedLogic/1.0.4/sharedLogic-1.0.4.module",
+    "group": "com.noonpayments",
+    "module": "sharedLogic",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedLogic.aar",
+          "url": "sharedLogic-android-1.0.4.aar",
+          "size": 234143,
+          "sha512": "c575f5abb9dfebb506211254be21174755e7939843286ed3c0ece859a25dd45e0c1421afed368aabf71194ab10832e685c91339f36b3fb449250bfd45b80c5a0",
+          "sha256": "5bf40c5dc88990593cbfae0e15733c945b1c0e7255bd8fa0500ff19509605a31",
+          "sha1": "2c3130260efaadbfccfc6571bc80825e52932571",
+          "md5": "a8822441052da9ae1301147d886b9ba1"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedLogic.aar",
+          "url": "sharedLogic-android-1.0.4.aar",
+          "size": 234143,
+          "sha512": "c575f5abb9dfebb506211254be21174755e7939843286ed3c0ece859a25dd45e0c1421afed368aabf71194ab10832e685c91339f36b3fb449250bfd45b80c5a0",
+          "sha256": "5bf40c5dc88990593cbfae0e15733c945b1c0e7255bd8fa0500ff19509605a31",
+          "sha1": "2c3130260efaadbfccfc6571bc80825e52932571",
+          "md5": "a8822441052da9ae1301147d886b9ba1"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sharedLogic-android-1.0.4-sources.jar",
+          "url": "sharedLogic-android-1.0.4-sources.jar",
+          "size": 47616,
+          "sha512": "35ee19f688af41a209bca605fad297f034742cae69fa3110bd7ac0feb406649db73c0490d46308488de44081f26ca78dd5994cc9d65e11e84fefff7b57f51a36",
+          "sha256": "d3cb06039bba5cc32b78923c372802b18230e894a446bfc22eda6546e35c9cc6",
+          "sha1": "2b1d94e1cf04bb2f86b4e496406102de5e8e3b77",
+          "md5": "47eb99fbd40a48a3c518ef98029c381f"
+        }
+      ]
+    }
+  ]
+}
