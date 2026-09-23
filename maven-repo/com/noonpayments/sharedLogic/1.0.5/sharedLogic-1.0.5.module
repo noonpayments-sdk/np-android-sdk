@@ -1,0 +1,261 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.noonpayments",
+    "module": "sharedLogic",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedLogic-metadata-1.0.5.jar",
+          "url": "sharedLogic-1.0.5.jar",
+          "size": 56717,
+          "sha512": "be84ab5b23f655e4d35f6e1653ccbb7514f672af0c3c799a2422d011fccdccc8d193de69e72159fc6ce9982553d31eb1d0ff575218c748f88283fb37f08dfa84",
+          "sha256": "6132501cbc1df0f9cc94045c7d5718a3855addc666c3ce63bbf488938ce21f02",
+          "sha1": "b489600a022b6e96c8f1eeb241f893af7e8e3852",
+          "md5": "6902d0e2d2a7beb9aa177ace8f26695b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sharedLogic-kotlin-1.0.5-sources.jar",
+          "url": "sharedLogic-1.0.5-sources.jar",
+          "size": 62908,
+          "sha512": "dafe273ea9fe467c6301dd198b010962460e6c7562b377c7bb31075e30e8763df9883d6fabaa8b03d2cfa33bd1b48618925d44b4b4625bc4608c58a03fe3a5e6",
+          "sha256": "a8cdbfcbe1ac0add069525bda9e9416b2fd688f8721f950212c71e7616a8d853",
+          "sha1": "05c1d3226737e07c9b431ff1eda60b3cf9f33757",
+          "md5": "13804cb8f804e5e97f6e1525d3f91de9"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-android/1.0.5/sharedLogic-android-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-android",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-android/1.0.5/sharedLogic-android-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-android",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-android/1.0.5/sharedLogic-android-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-android",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iosarm64/1.0.5/sharedLogic-iosarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iosarm64",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iosarm64/1.0.5/sharedLogic-iosarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iosarm64",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iosarm64/1.0.5/sharedLogic-iosarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iosarm64",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iossimulatorarm64/1.0.5/sharedLogic-iossimulatorarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iossimulatorarm64",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iossimulatorarm64/1.0.5/sharedLogic-iossimulatorarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iossimulatorarm64",
+        "version": "1.0.5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sharedLogic-iossimulatorarm64/1.0.5/sharedLogic-iossimulatorarm64-1.0.5.module",
+        "group": "com.noonpayments",
+        "module": "sharedLogic-iossimulatorarm64",
+        "version": "1.0.5"
+      }
+    }
+  ]
+}
