@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sharedLogic/1.0.9/sharedLogic-1.0.9.module",
+    "group": "com.noonpayments",
+    "module": "sharedLogic",
+    "version": "1.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedLogic-iosSimulatorArm64Main-1.0.9.klib",
+          "url": "sharedLogic-iossimulatorarm64-1.0.9.klib",
+          "size": 371226,
+          "sha512": "3f88a18168ab5987033dc75cc269ca16fe9e57d47b70d0d917106d8811b2b9ab6f4d670625b8c2735ea71c4f9d343350adfdbb94a4d8f0dd0df4bdec255fcea8",
+          "sha256": "3564ccd6d2be9858fc99ed3860ceb6a14470971fc7f38dbe5599d563ea351b26",
+          "sha1": "5be2fa51f41dcfcc934fa1ac687d8c5e5ccde0b2",
+          "md5": "4e70134a2ab124afe8cc69dbcba63a7e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "sharedLogic-iossimulatorarm64-1.0.9-sources.jar",
+          "url": "sharedLogic-iossimulatorarm64-1.0.9-sources.jar",
+          "size": 86809,
+          "sha512": "87ef389a8ad417fa1db56ba1134a84b58b4cd5f72bfdd9fde50219a69a7d94e16b881102960f33f9e0235f59c57243a749702264c126ac8830eaab445ebaf104",
+          "sha256": "d72b0e629412296a55d13c6b21bddfd22b0d92687c7f015b6189e0299018d41a",
+          "sha1": "0ef4938f61dad54316d5244f58a8bb9d6eadc59c",
+          "md5": "fca38431c77518dd857a8fb629aa1bf3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sharedLogic-iossimulatorarm64-1.0.9-metadata.jar",
+          "url": "sharedLogic-iossimulatorarm64-1.0.9-metadata.jar",
+          "size": 5186,
+          "sha512": "971798c40d5a79b837ef78bbeb261d98234f49d346c03ff29729d03d61d42d123e61d86dae6d53f281b919dc6a2e39c6d40fd91a6ffaacf358fc6ee82125d6e2",
+          "sha256": "edc432f97865f66582f0c151c022a608b8454145d0d3f70b65e9ef131eb15d3b",
+          "sha1": "689306c3e06ad5fa7aaaf0ffbc7967bc1a65de40",
+          "md5": "36a055921d69f6565440c105f8ba73be"
+        }
+      ]
+    }
+  ]
+}
